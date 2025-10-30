@@ -1,0 +1,3 @@
+/home/joyita/PLAB_4/supermercado/build/CMakeFiles/Supermercado.dir
+/home/joyita/PLAB_4/supermercado/build/CMakeFiles/edit_cache.dir
+/home/joyita/PLAB_4/supermercado/build/CMakeFiles/rebuild_cache.dir

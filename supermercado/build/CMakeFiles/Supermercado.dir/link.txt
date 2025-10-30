@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Supermercado.dir/src/main.cpp.o CMakeFiles/Supermercado.dir/src/producto.cpp.o CMakeFiles/Supermercado.dir/src/itemcarrito.cpp.o CMakeFiles/Supermercado.dir/src/usuario.cpp.o -o Supermercado 
