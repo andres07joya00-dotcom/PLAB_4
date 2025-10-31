@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Función principal del programa." alt="" coords="5,80,60,105"/>
+<area shape="rect" id="Node000002" href="$classCube.html#a527d51dcf6c90560f6222ade8eba2f15" title="Obtiene la longitud actual de la arista del cubo." alt="" coords="125,5,253,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,78,75,58,107,40,123,33,125,38,109,44,78,63,51,82"/>
+<area shape="rect" id="Node000003" href="$classCube.html#abc72421428344d711e92cb4d16ac48b6" title="Calcula el área superficial del cubo." alt="" coords="108,55,271,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,86,97,80,98,85,61,91"/>
+<area shape="rect" id="Node000004" href="$classCube.html#ae22fa28a3f10eb4c939f6210dce8333f" title="Calcula el volumen del cubo." alt="" coords="123,104,256,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="61,94,109,102,109,107,60,99"/>
+<area shape="rect" id="Node000005" href="$classCube.html#a5d008c2397fd89fb63ac94e387017419" title="Establece una nueva longitud para la arista del cubo." alt="" coords="126,153,253,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="52,103,109,138,129,146,127,151,107,143,49,108"/>
+</map>
