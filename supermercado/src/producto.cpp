@@ -1,4 +1,4 @@
-#include "producto.h"
+#include "../include/producto.h"
 
 producto::producto()
     : nombres({"arroz", "huevo", "leche", "pan", "cafe"}),
@@ -6,11 +6,14 @@ producto::producto()
       cantidad({5, 12, 10, 4, 2}) {}
 
 void producto::mostrar() {
-    cout << "--- LISTA DE PRODUCTOS ---" << endl;
+    cout << "\n--- LISTA DE PRODUCTOS DISPONIBLES ---" << endl;
     for (int i = 0; i < nombres.size(); i++) {
         cout << i + 1 << ". " << nombres[i]
              << " - $" << precios[i]
-             << " - Cantidad disponible: " << cantidad[i] << endl;
+             << " - Cantidad: " << cantidad[i] << endl;
     }
     cout << endl;
 }
+
+const vector<string>& producto::getNombres() const { return nombres; }
+const vector<int>& producto::getPrecios() const { return precios; }

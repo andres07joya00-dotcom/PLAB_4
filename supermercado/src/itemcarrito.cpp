@@ -1,22 +1,14 @@
-#include "itemcarrito.h"
+#include "../include/itemcarrito.h"
 
 itemcarrito::itemcarrito() : pro(""), cant(0), pretot(0) {}
-
 itemcarrito::itemcarrito(string _producto, int _cant, int _pretot)
     : pro(_producto), cant(_cant), pretot(_pretot) {}
 
-string itemcarrito::getProducto() const { return pro; }
-int itemcarrito::getCantidad() const { return cant; }
-int itemcarrito::getTotal() const { return pretot; }
-
-void itemcarrito::carrito(vector<itemcarrito> &carrito) {
+void itemcarrito::agregarAlCarrito(vector<itemcarrito> &carrito) {
     char opc = 's';
-
-    while (opc == 's') {
+    while (opc == 's' || opc == 'S') {
         string pro;
-        int cant;
-        int pre = 0;
-        int pretot;
+        int cant, pre = 0, pretot;
         bool encontrado = false;
 
         cout << "Ingresa el producto a llevar: ";
@@ -33,7 +25,7 @@ void itemcarrito::carrito(vector<itemcarrito> &carrito) {
         }
 
         if (!encontrado) {
-            cout << "Producto no encontrado." << endl;
+            cout << "Producto no encontrado.\n";
         } else {
             pretot = cant * pre;
             carrito.push_back(itemcarrito(pro, cant, pretot));
@@ -71,13 +63,12 @@ void itemcarrito::eliminarProducto(vector<itemcarrito> &carrito) {
 
 void itemcarrito::mostrarCarrito(const vector<itemcarrito> &carrito) {
     cout << "\n--- CARRITO DE COMPRAS ---" << endl;
-    int totalGeneral = 0;
-
     if (carrito.empty()) {
         cout << "El carrito está vacío.\n";
         return;
     }
 
+    int totalGeneral = 0;
     for (int i = 0; i < carrito.size(); i++) {
         cout << i + 1 << ". " << carrito[i].getProducto()
              << " - Cant: " << carrito[i].getCantidad()
@@ -85,6 +76,10 @@ void itemcarrito::mostrarCarrito(const vector<itemcarrito> &carrito) {
         totalGeneral += carrito[i].getTotal();
     }
 
-    cout << "---------------------------" << endl;
-    cout << "TOTAL GENERAL: $" << totalGeneral << endl << endl;
+    cout << "---------------------------\n";
+    cout << "TOTAL GENERAL: $" << totalGeneral << endl;
 }
+
+string itemcarrito::getProducto() const { return pro; }
+int itemcarrito::getCantidad() const { return cant; }
+int itemcarrito::getTotal() const { return pretot; }

@@ -13,7 +13,7 @@ public:
     itemcarrito();
     itemcarrito(string _producto, int _cant, int _pretot);
 
-    void carrito(vector<itemcarrito> &carrito);
+    void agregarAlCarrito(vector<itemcarrito> &carrito);
     void eliminarProducto(vector<itemcarrito> &carrito);
     void mostrarCarrito(const vector<itemcarrito> &carrito);
 

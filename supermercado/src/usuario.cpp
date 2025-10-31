@@ -1,6 +1,8 @@
-#include "usuario.h"
+#include "../include/usuario.h"
 
 Usuario::Usuario(string _nombre) : nombre(_nombre) {}
+
+string Usuario::getNombre() const { return nombre; }
 
 void Usuario::guardarCompra(const vector<itemcarrito> &carrito) {
     historialCompras.push_back(carrito);
@@ -13,7 +15,6 @@ void Usuario::mostrarHistorial() {
         cout << "No hay compras registradas.\n";
         return;
     }
-
     for (int i = 0; i < historialCompras.size(); i++) {
         cout << "Compra #" << i + 1 << ":\n";
         int total = 0;
@@ -25,3 +26,4 @@ void Usuario::mostrarHistorial() {
         cout << "Total compra: $" << total << "\n\n";
     }
 }
+

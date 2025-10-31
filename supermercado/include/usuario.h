@@ -10,8 +10,10 @@ private:
 
 public:
     Usuario(string _nombre);
+    string getNombre() const;
     void guardarCompra(const vector<itemcarrito> &carrito);
     void mostrarHistorial();
 };
 
 #endif
+

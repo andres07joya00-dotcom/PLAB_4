@@ -15,6 +15,9 @@ protected:
 public:
     producto();
     void mostrar();
+    const vector<string>& getNombres() const;
+    const vector<int>& getPrecios() const;
 };
 
 #endif
+
