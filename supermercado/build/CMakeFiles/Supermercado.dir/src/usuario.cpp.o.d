@@ -1,9 +1,9 @@
 CMakeFiles/Supermercado.dir/src/usuario.cpp.o: \
  /home/joyita/PLAB_4/supermercado/src/usuario.cpp \
  /usr/include/stdc-predef.h \
- /home/joyita/PLAB_4/supermercado/include/usuario.h \
- /home/joyita/PLAB_4/supermercado/include/itemcarrito.h \
- /home/joyita/PLAB_4/supermercado/include/producto.h \
+ /home/joyita/PLAB_4/supermercado/src/../include/usuario.h \
+ /home/joyita/PLAB_4/supermercado/src/../include/itemcarrito.h \
+ /home/joyita/PLAB_4/supermercado/src/../include/producto.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
