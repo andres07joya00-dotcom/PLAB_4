@@ -1,0 +1,7 @@
+<map id="include/usuario.h" name="include/usuario.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase Usuario, que representa un cliente con historial de compras." alt="" coords="59,5,193,31"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html" title="Programa principal del sistema de supermercado ECI PA." alt="" coords="5,79,111,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,42,71,80,67,77,104,39"/>
+<area shape="rect" id="Node000003" href="$usuario_8cpp.html" title="Implementación de la clase Usuario, que administra los datos y el historial de compras de un cliente." alt="" coords="135,79,255,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,39,186,77,182,80,145,43"/>
+</map>

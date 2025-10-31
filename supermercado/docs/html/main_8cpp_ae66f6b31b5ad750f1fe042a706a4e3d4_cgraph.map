@@ -1,0 +1,19 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Función principal del programa." alt="" coords="5,153,60,179"/>
+<area shape="rect" id="Node000002" href="$classitemcarrito.html#a7249b1c8942f7b3da288c9aff929e751" title="Agrega un nuevo producto al carrito." alt="" coords="110,5,319,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,152,59,98,79,66,106,40,114,35,117,39,110,44,84,70,64,100,40,154"/>
+<area shape="rect" id="Node000004" href="$classitemcarrito.html#a59d29ce89b296a4c8d581fb90fded142" title="Elimina un producto del carrito." alt="" coords="108,55,321,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="41,152,68,120,107,89,121,82,123,87,109,94,71,124,45,155"/>
+<area shape="rect" id="Node000005" href="$classUsuario.html#a69eab5b3314e826c58aaa034479d7ac0" title="Obtiene el nombre del usuario." alt="" coords="138,104,291,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="59,154,107,138,138,130,140,135,109,143,61,159"/>
+<area shape="rect" id="Node000006" href="$classUsuario.html#ae80eaca178e9fd92688c8f0b9f172b0e" title="Guarda una nueva compra en el historial del usuario." alt="" coords="124,153,305,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="60,163,110,163,110,169,60,169"/>
+<area shape="rect" id="Node000007" href="$classproducto.html#a51833a2b7a2e9bdb8ce7a9c2d0828b06" title="Muestra la lista de productos disponibles." alt="" coords="145,203,284,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="61,173,109,187,144,197,143,202,107,193,59,178"/>
+<area shape="rect" id="Node000008" href="$classitemcarrito.html#a060b8b61c19cdee00c957a5e614e9829" title="Muestra los productos del carrito." alt="" coords="116,252,313,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="45,177,72,208,109,237,126,245,124,250,107,242,68,212,41,181"/>
+<area shape="rect" id="Node000009" href="$classUsuario.html#a18f893ef5457ae77f0801d3c7c462f49" title="Muestra el historial completo de compras del usuario." alt="" coords="121,301,308,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="40,178,64,231,84,261,110,287,120,293,117,298,106,291,80,265,59,234,35,180"/>
+<area shape="rect" id="Node000003" href="$classitemcarrito.html#a98c4e4ddfb1929eacdeb9fa4362b0da7" title="Constructor por defecto." alt="" coords="369,5,544,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="320,15,356,15,356,21,320,21"/>
+</map>

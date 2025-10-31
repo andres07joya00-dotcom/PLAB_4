@@ -1,0 +1,20 @@
+<map id="src/usuario.cpp" name="src/usuario.cpp">
+<area shape="rect" id="Node000001" title="Implementación de la clase Usuario, que administra los datos y el historial de compras de un cliente." alt="" coords="20,5,140,31"/>
+<area shape="rect" id="Node000002" href="$usuario_8h.html" title="Declaración de la clase Usuario, que representa un cliente con historial de compras." alt="" coords="115,79,261,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,28,160,69,157,73,96,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,299,85,324"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="81,31,51,285,46,284,76,30"/>
+<area shape="rect" id="Node000003" href="$itemcarrito_8h.html" title="Declaración de la clase itemcarrito, que representa un producto dentro del carrito de compras." alt="" coords="161,152,268,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,103,208,138,203,140,190,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="261,299,323,324"/>
+<area shape="poly" id="edge10_Node000002_Node000006" title=" " alt="" coords="220,102,254,121,270,134,282,151,296,185,302,222,299,285,294,285,297,222,291,186,278,153,266,138,251,125,218,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="129,299,188,324"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="179,106,140,156,119,189,104,226,101,238,104,250,117,271,134,288,130,292,112,274,99,252,96,238,99,225,114,187,135,153,175,103"/>
+<area shape="rect" id="Node000004" href="$producto_8h.html" title="Declaración de la clase producto, que gestiona la información base de los productos disponibles." alt="" coords="113,225,204,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="208,179,178,216,174,213,203,176"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="223,177,282,285,277,288,219,179"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="220,177,225,211,224,232,218,252,205,274,188,292,184,288,201,271,214,250,218,231,219,211,215,178"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="142,253,77,294,74,289,139,248"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="181,248,259,290,257,294,179,253"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="161,251,161,285,156,285,156,251"/>
+</map>
