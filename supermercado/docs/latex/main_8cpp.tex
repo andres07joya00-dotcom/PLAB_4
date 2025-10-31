@@ -1,0 +1,73 @@
+\doxysection{src/main.cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+
+
+Programa principal del sistema de supermercado ECI PA.  
+
+
+{\ttfamily \#include "{}../include/usuario.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Función principal del programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Programa principal del sistema de supermercado ECI PA. 
+
+Este archivo implementa la lógica general del sistema, permitiendo\+:
+\begin{DoxyItemize}
+\item Registrar y gestionar múltiples usuarios.
+\item Visualizar la lista de productos disponibles.
+\item Agregar, eliminar y mostrar productos en el carrito de compras.
+\item Guardar y visualizar el historial de compras de cada usuario.
+\end{DoxyItemize}
+
+Combina las clases {\ttfamily producto}, {\ttfamily itemcarrito} y {\ttfamily \doxylink{classUsuario}{Usuario}} para crear una simulación sencilla de un sistema de ventas en consola. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Función principal del programa. 
+
+Controla el menú general de la aplicación y las operaciones principales\+: registro de usuarios, compras, historial y visualización de productos.
+
+\begin{DoxyReturn}{Returns}
+0 al finalizar la ejecución correctamente. 
+\end{DoxyReturn}
+\texorpdfstring{$<$}{<} Lista de usuarios registrados.
+
+\texorpdfstring{$<$}{<} Catálogo de productos disponibles.
+
+\texorpdfstring{$<$}{<} Objeto auxiliar para manipular el carrito.
+
+\texorpdfstring{$<$}{<} Carrito de compras temporal del usuario.
+
+\texorpdfstring{$<$}{<} Nombre del usuario actual.
+
+\texorpdfstring{$<$}{<} Índice del usuario seleccionado.
+
+\texorpdfstring{$<$}{<} Opción elegida en el menú principal.Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

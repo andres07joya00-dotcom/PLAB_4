@@ -1,0 +1,31 @@
+\doxysection{usuario.\+h}
+\hypertarget{usuario_8h_source}{}\label{usuario_8h_source}\index{include/usuario.h@{include/usuario.h}}
+\mbox{\hyperlink{usuario_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#ifndef\ USUARIO\_H}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#define\ USUARIO\_H}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{itemcarrito_8h}{itemcarrito.h}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00017\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classUsuario}{Usuario}}\ \{}
+\DoxyCodeLine{00028\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{string}\ nombre;\ \ }
+\DoxyCodeLine{00030\ \ \ \ \ vector<vector<itemcarrito>\ >\ historialCompras;\ \ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{classUsuario}{Usuario}}(\textcolor{keywordtype}{string}\ \_nombre);}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{classUsuario_a69eab5b3314e826c58aaa034479d7ac0}{getNombre}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classUsuario_ae80eaca178e9fd92688c8f0b9f172b0e}{guardarCompra}}(\textcolor{keyword}{const}\ vector<itemcarrito>\ \&carrito);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classUsuario_a18f893ef5457ae77f0801d3c7c462f49}{mostrarHistorial}}();}
+\DoxyCodeLine{00061\ \};}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00063\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ USUARIO\_H}}
+\DoxyCodeLine{00064\ }
+
+\end{DoxyCode}

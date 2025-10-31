@@ -1,0 +1,171 @@
+\doxysection{producto Class Reference}
+\hypertarget{classproducto}{}\label{classproducto}\index{producto@{producto}}
+
+
+Clase base que representa la información general de los productos.  
+
+
+
+
+{\ttfamily \#include $<$producto.\+h$>$}
+
+
+
+Inheritance diagram for producto\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classproducto__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for producto\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{classproducto__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classproducto_ade4a4686641f868ec6a18a26de552498}{producto}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classproducto_a51833a2b7a2e9bdb8ce7a9c2d0828b06}{mostrar}} ()
+\begin{DoxyCompactList}\small\item\em Muestra la lista de productos disponibles. \end{DoxyCompactList}\item 
+const vector$<$ string $>$ \& \mbox{\hyperlink{classproducto_adfbcadf358ae307b02edf95d8bb0cebd}{get\+Nombres}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el vector de nombres de productos. \end{DoxyCompactList}\item 
+const vector$<$ int $>$ \& \mbox{\hyperlink{classproducto_aad29719885bb2e71f88de4b445af6a97}{get\+Precios}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el vector de precios de productos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ string $>$ \mbox{\hyperlink{classproducto_a9ccee66445b10e1df9d47b81f14ca63c}{nombres}}
+\item 
+vector$<$ int $>$ \mbox{\hyperlink{classproducto_a0c95bb4246dbf7a465c251db89f4da30}{precios}}
+\item 
+vector$<$ int $>$ \mbox{\hyperlink{classproducto_af0c04f0b3f346742e9bf338669ffa97f}{cantidad}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase base que representa la información general de los productos. 
+
+Contiene vectores con los nombres, precios y cantidades de productos. Ofrece métodos para mostrar la información y acceder a los datos. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classproducto_ade4a4686641f868ec6a18a26de552498}\label{classproducto_ade4a4686641f868ec6a18a26de552498} 
+\index{producto@{producto}!producto@{producto}}
+\index{producto@{producto}!producto@{producto}}
+\doxysubsubsection{\texorpdfstring{producto()}{producto()}}
+{\footnotesize\ttfamily producto\+::producto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor por defecto. 
+
+Constructor por defecto de la clase producto.
+
+Inicializa los vectores de nombres, precios y cantidades vacíos.
+
+Inicializa los vectores con una lista de productos predefinidos, incluyendo su nombre, precio y cantidad disponible.
+
+Los valores por defecto son\+:
+\begin{DoxyItemize}
+\item arroz → \$15,000 → 5 unidades ~\newline
+
+\item huevo → \$18,000 → 12 unidades ~\newline
+
+\item leche → \$12,000 → 10 unidades ~\newline
+
+\item pan → \$1,500 → 4 unidades ~\newline
+
+\item café → \$13,000 → 2 unidades ~\newline
+ 
+\end{DoxyItemize}
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classproducto_adfbcadf358ae307b02edf95d8bb0cebd}\label{classproducto_adfbcadf358ae307b02edf95d8bb0cebd} 
+\index{producto@{producto}!getNombres@{getNombres}}
+\index{getNombres@{getNombres}!producto@{producto}}
+\doxysubsubsection{\texorpdfstring{getNombres()}{getNombres()}}
+{\footnotesize\ttfamily const vector$<$ string $>$ \& producto\+::get\+Nombres (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el vector de nombres de productos. 
+
+Obtiene la lista de nombres de los productos.
+
+\begin{DoxyReturn}{Returns}
+Referencia constante al vector de nombres.
+
+Referencia constante al vector de nombres ({\ttfamily vector\texorpdfstring{$<$}{<}string\texorpdfstring{$>$}{>}}). 
+\end{DoxyReturn}
+\Hypertarget{classproducto_aad29719885bb2e71f88de4b445af6a97}\label{classproducto_aad29719885bb2e71f88de4b445af6a97} 
+\index{producto@{producto}!getPrecios@{getPrecios}}
+\index{getPrecios@{getPrecios}!producto@{producto}}
+\doxysubsubsection{\texorpdfstring{getPrecios()}{getPrecios()}}
+{\footnotesize\ttfamily const vector$<$ int $>$ \& producto\+::get\+Precios (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el vector de precios de productos. 
+
+Obtiene la lista de precios de los productos.
+
+\begin{DoxyReturn}{Returns}
+Referencia constante al vector de precios.
+
+Referencia constante al vector de precios ({\ttfamily vector\texorpdfstring{$<$}{<}int\texorpdfstring{$>$}{>}}). 
+\end{DoxyReturn}
+\Hypertarget{classproducto_a51833a2b7a2e9bdb8ce7a9c2d0828b06}\label{classproducto_a51833a2b7a2e9bdb8ce7a9c2d0828b06} 
+\index{producto@{producto}!mostrar@{mostrar}}
+\index{mostrar@{mostrar}!producto@{producto}}
+\doxysubsubsection{\texorpdfstring{mostrar()}{mostrar()}}
+{\footnotesize\ttfamily void producto\+::mostrar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Muestra la lista de productos disponibles. 
+
+Imprime en consola los nombres, precios y cantidades almacenados en los vectores.
+
+Imprime en consola el nombre, el precio y la cantidad disponible de cada producto. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{classproducto_a51833a2b7a2e9bdb8ce7a9c2d0828b06_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classproducto_af0c04f0b3f346742e9bf338669ffa97f}\label{classproducto_af0c04f0b3f346742e9bf338669ffa97f} 
+\index{producto@{producto}!cantidad@{cantidad}}
+\index{cantidad@{cantidad}!producto@{producto}}
+\doxysubsubsection{\texorpdfstring{cantidad}{cantidad}}
+{\footnotesize\ttfamily vector$<$int$>$ producto\+::cantidad\hspace{0.3cm}{\ttfamily [protected]}}
+
+Lista de cantidades disponibles por producto. \Hypertarget{classproducto_a9ccee66445b10e1df9d47b81f14ca63c}\label{classproducto_a9ccee66445b10e1df9d47b81f14ca63c} 
+\index{producto@{producto}!nombres@{nombres}}
+\index{nombres@{nombres}!producto@{producto}}
+\doxysubsubsection{\texorpdfstring{nombres}{nombres}}
+{\footnotesize\ttfamily vector$<$string$>$ producto\+::nombres\hspace{0.3cm}{\ttfamily [protected]}}
+
+Lista de nombres de productos disponibles. \Hypertarget{classproducto_a0c95bb4246dbf7a465c251db89f4da30}\label{classproducto_a0c95bb4246dbf7a465c251db89f4da30} 
+\index{producto@{producto}!precios@{precios}}
+\index{precios@{precios}!producto@{producto}}
+\doxysubsubsection{\texorpdfstring{precios}{precios}}
+{\footnotesize\ttfamily vector$<$int$>$ producto\+::precios\hspace{0.3cm}{\ttfamily [protected]}}
+
+Lista de precios correspondientes a cada producto. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{producto_8h}{producto.\+h}}\item 
+src/\mbox{\hyperlink{producto_8cpp}{producto.\+cpp}}\end{DoxyCompactItemize}

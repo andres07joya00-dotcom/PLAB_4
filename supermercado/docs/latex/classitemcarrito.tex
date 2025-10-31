@@ -1,0 +1,288 @@
+\doxysection{itemcarrito Class Reference}
+\hypertarget{classitemcarrito}{}\label{classitemcarrito}\index{itemcarrito@{itemcarrito}}
+
+
+Representa un producto añadido al carrito de compras.  
+
+
+
+
+{\ttfamily \#include $<$itemcarrito.\+h$>$}
+
+
+
+Inheritance diagram for itemcarrito\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classitemcarrito__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for itemcarrito\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classitemcarrito__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classitemcarrito_a98c4e4ddfb1929eacdeb9fa4362b0da7}{itemcarrito}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classitemcarrito_a79b7f6c8ca76f4bebfc3afb3b4e1a2bc}{itemcarrito}} (string \+\_\+producto, int \+\_\+cant, int \+\_\+pretot)
+\begin{DoxyCompactList}\small\item\em Constructor con parámetros. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classitemcarrito_a7249b1c8942f7b3da288c9aff929e751}{agregar\+Al\+Carrito}} (vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&carrito)
+\begin{DoxyCompactList}\small\item\em Agrega un nuevo producto al carrito. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classitemcarrito_a59d29ce89b296a4c8d581fb90fded142}{eliminar\+Producto}} (vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&carrito)
+\begin{DoxyCompactList}\small\item\em Elimina un producto del carrito. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classitemcarrito_a060b8b61c19cdee00c957a5e614e9829}{mostrar\+Carrito}} (const vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&carrito)
+\begin{DoxyCompactList}\small\item\em Muestra los productos del carrito. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classitemcarrito_a3cd6ed54e0e11a7b2755eeeb3da87c58}{get\+Producto}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el nombre del producto. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classitemcarrito_a8393edb822049ca50a4a113dd9df98bf}{get\+Cantidad}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene la cantidad del producto. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classitemcarrito_a6ebd1de482e840751b97abd731e598dd}{get\+Total}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el precio total del producto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classproducto}{producto}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classproducto_ade4a4686641f868ec6a18a26de552498}{producto}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classproducto_a51833a2b7a2e9bdb8ce7a9c2d0828b06}{mostrar}} ()
+\begin{DoxyCompactList}\small\item\em Muestra la lista de productos disponibles. \end{DoxyCompactList}\item 
+const vector$<$ string $>$ \& \mbox{\hyperlink{classproducto_adfbcadf358ae307b02edf95d8bb0cebd}{get\+Nombres}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el vector de nombres de productos. \end{DoxyCompactList}\item 
+const vector$<$ int $>$ \& \mbox{\hyperlink{classproducto_aad29719885bb2e71f88de4b445af6a97}{get\+Precios}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el vector de precios de productos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classproducto}{producto}}}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ string $>$ \mbox{\hyperlink{classproducto_a9ccee66445b10e1df9d47b81f14ca63c}{nombres}}
+\item 
+vector$<$ int $>$ \mbox{\hyperlink{classproducto_a0c95bb4246dbf7a465c251db89f4da30}{precios}}
+\item 
+vector$<$ int $>$ \mbox{\hyperlink{classproducto_af0c04f0b3f346742e9bf338669ffa97f}{cantidad}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa un producto añadido al carrito de compras. 
+
+Hereda de la clase {\ttfamily producto} y añade atributos específicos del carrito, como la cantidad de unidades y el precio total. También gestiona la manipulación de una colección de ítems. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classitemcarrito_a98c4e4ddfb1929eacdeb9fa4362b0da7}\label{classitemcarrito_a98c4e4ddfb1929eacdeb9fa4362b0da7} 
+\index{itemcarrito@{itemcarrito}!itemcarrito@{itemcarrito}}
+\index{itemcarrito@{itemcarrito}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{itemcarrito()}{itemcarrito()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily itemcarrito\+::itemcarrito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor por defecto. 
+
+Inicializa los atributos del producto del carrito con valores predeterminados.
+
+Inicializa los atributos del ítem con valores vacíos o en cero. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classitemcarrito_a98c4e4ddfb1929eacdeb9fa4362b0da7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classitemcarrito_a79b7f6c8ca76f4bebfc3afb3b4e1a2bc}\label{classitemcarrito_a79b7f6c8ca76f4bebfc3afb3b4e1a2bc} 
+\index{itemcarrito@{itemcarrito}!itemcarrito@{itemcarrito}}
+\index{itemcarrito@{itemcarrito}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{itemcarrito()}{itemcarrito()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily itemcarrito\+::itemcarrito (\begin{DoxyParamCaption}\item[{string}]{\+\_\+producto,  }\item[{int}]{\+\_\+cant,  }\item[{int}]{\+\_\+pretot }\end{DoxyParamCaption})}
+
+
+
+Constructor con parámetros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+producto} & Nombre del producto. \\
+\hline
+{\em \+\_\+cant} & Cantidad del producto. \\
+\hline
+{\em \+\_\+pretot} & Precio total del producto.\\
+\hline
+\end{DoxyParams}
+Inicializa un objeto {\ttfamily itemcarrito} con los valores indicados.
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+producto} & Nombre del producto. \\
+\hline
+{\em \+\_\+cant} & Cantidad de unidades del producto. \\
+\hline
+{\em \+\_\+pretot} & Precio total (precio unitario \texorpdfstring{$\ast$}{*} cantidad). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classitemcarrito_a7249b1c8942f7b3da288c9aff929e751}\label{classitemcarrito_a7249b1c8942f7b3da288c9aff929e751} 
+\index{itemcarrito@{itemcarrito}!agregarAlCarrito@{agregarAlCarrito}}
+\index{agregarAlCarrito@{agregarAlCarrito}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{agregarAlCarrito()}{agregarAlCarrito()}}
+{\footnotesize\ttfamily void itemcarrito\+::agregar\+Al\+Carrito (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&}]{carrito }\end{DoxyParamCaption})}
+
+
+
+Agrega un nuevo producto al carrito. 
+
+Agrega productos al carrito de compras.
+
+Inserta un nuevo objeto {\ttfamily itemcarrito} dentro del vector de productos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Referencia al vector que almacena los ítems del carrito.\\
+\hline
+\end{DoxyParams}
+Permite al usuario ingresar manualmente los nombres de los productos y sus cantidades. Verifica si el producto existe en la lista heredada de {\ttfamily producto}, calcula el precio total y lo añade al vector de ítems del carrito.
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Referencia al vector de ítems donde se almacenan los productos seleccionados. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+Requiere que los vectores {\ttfamily nombres} y {\ttfamily precios} heredados de {\ttfamily producto} estén inicializados. 
+\end{DoxyNote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classitemcarrito_a7249b1c8942f7b3da288c9aff929e751_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classitemcarrito_a7249b1c8942f7b3da288c9aff929e751_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classitemcarrito_a59d29ce89b296a4c8d581fb90fded142}\label{classitemcarrito_a59d29ce89b296a4c8d581fb90fded142} 
+\index{itemcarrito@{itemcarrito}!eliminarProducto@{eliminarProducto}}
+\index{eliminarProducto@{eliminarProducto}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{eliminarProducto()}{eliminarProducto()}}
+{\footnotesize\ttfamily void itemcarrito\+::eliminar\+Producto (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&}]{carrito }\end{DoxyParamCaption})}
+
+
+
+Elimina un producto del carrito. 
+
+Busca y elimina del vector el producto que coincida con el nombre almacenado en {\ttfamily pro}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Referencia al vector de ítems del carrito.\\
+\hline
+\end{DoxyParams}
+Solicita al usuario el nombre de un producto y, si lo encuentra en el carrito, lo elimina del vector.
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Referencia al vector de ítems del carrito. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{classitemcarrito_a59d29ce89b296a4c8d581fb90fded142_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classitemcarrito_a8393edb822049ca50a4a113dd9df98bf}\label{classitemcarrito_a8393edb822049ca50a4a113dd9df98bf} 
+\index{itemcarrito@{itemcarrito}!getCantidad@{getCantidad}}
+\index{getCantidad@{getCantidad}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{getCantidad()}{getCantidad()}}
+{\footnotesize\ttfamily int itemcarrito\+::get\+Cantidad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene la cantidad del producto. 
+
+\begin{DoxyReturn}{Returns}
+Cantidad ({\ttfamily int}). 
+\end{DoxyReturn}
+\Hypertarget{classitemcarrito_a3cd6ed54e0e11a7b2755eeeb3da87c58}\label{classitemcarrito_a3cd6ed54e0e11a7b2755eeeb3da87c58} 
+\index{itemcarrito@{itemcarrito}!getProducto@{getProducto}}
+\index{getProducto@{getProducto}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{getProducto()}{getProducto()}}
+{\footnotesize\ttfamily string itemcarrito\+::get\+Producto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el nombre del producto. 
+
+\begin{DoxyReturn}{Returns}
+Nombre del producto ({\ttfamily string}). 
+\end{DoxyReturn}
+\Hypertarget{classitemcarrito_a6ebd1de482e840751b97abd731e598dd}\label{classitemcarrito_a6ebd1de482e840751b97abd731e598dd} 
+\index{itemcarrito@{itemcarrito}!getTotal@{getTotal}}
+\index{getTotal@{getTotal}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{getTotal()}{getTotal()}}
+{\footnotesize\ttfamily int itemcarrito\+::get\+Total (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el precio total del producto. 
+
+\begin{DoxyReturn}{Returns}
+Precio total ({\ttfamily int}). 
+\end{DoxyReturn}
+\Hypertarget{classitemcarrito_a060b8b61c19cdee00c957a5e614e9829}\label{classitemcarrito_a060b8b61c19cdee00c957a5e614e9829} 
+\index{itemcarrito@{itemcarrito}!mostrarCarrito@{mostrarCarrito}}
+\index{mostrarCarrito@{mostrarCarrito}!itemcarrito@{itemcarrito}}
+\doxysubsubsection{\texorpdfstring{mostrarCarrito()}{mostrarCarrito()}}
+{\footnotesize\ttfamily void itemcarrito\+::mostrar\+Carrito (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&}]{carrito }\end{DoxyParamCaption})}
+
+
+
+Muestra los productos del carrito. 
+
+Muestra el contenido actual del carrito de compras.
+
+Imprime en consola la información de todos los productos contenidos en el vector.
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Vector constante con los ítems del carrito.\\
+\hline
+\end{DoxyParams}
+Recorre el vector de ítems e imprime los datos de cada producto\+: nombre, cantidad y total. También muestra el total general de la compra.
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Vector constante que contiene los ítems del carrito. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classitemcarrito_a060b8b61c19cdee00c957a5e614e9829_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{itemcarrito_8h}{itemcarrito.\+h}}\item 
+src/\mbox{\hyperlink{itemcarrito_8cpp}{itemcarrito.\+cpp}}\end{DoxyCompactItemize}

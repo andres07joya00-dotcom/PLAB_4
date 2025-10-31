@@ -1,0 +1,153 @@
+\doxysection{Usuario Class Reference}
+\hypertarget{classUsuario}{}\label{classUsuario}\index{Usuario@{Usuario}}
+
+
+Representa un usuario o cliente del sistema de compras.  
+
+
+
+
+{\ttfamily \#include $<$usuario.\+h$>$}
+
+
+
+Collaboration diagram for Usuario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{classUsuario__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUsuario_a887174e4b59fa5c02d47150fdbd7904b}{Usuario}} (string \+\_\+nombre)
+\begin{DoxyCompactList}\small\item\em Constructor que inicializa el usuario con su nombre. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classUsuario_a69eab5b3314e826c58aaa034479d7ac0}{get\+Nombre}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el nombre del usuario. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsuario_ae80eaca178e9fd92688c8f0b9f172b0e}{guardar\+Compra}} (const vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&carrito)
+\begin{DoxyCompactList}\small\item\em Guarda una nueva compra en el historial del usuario. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUsuario_a18f893ef5457ae77f0801d3c7c462f49}{mostrar\+Historial}} ()
+\begin{DoxyCompactList}\small\item\em Muestra el historial completo de compras del usuario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa un usuario o cliente del sistema de compras. 
+
+Cada usuario posee un nombre y un historial de compras. Cada compra se almacena como un vector de objetos {\ttfamily itemcarrito}, permitiendo registrar y mostrar las compras realizadas. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classUsuario_a887174e4b59fa5c02d47150fdbd7904b}\label{classUsuario_a887174e4b59fa5c02d47150fdbd7904b} 
+\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{Usuario()}{Usuario()}}
+{\footnotesize\ttfamily Usuario\+::\+Usuario (\begin{DoxyParamCaption}\item[{string}]{\+\_\+nombre }\end{DoxyParamCaption})}
+
+
+
+Constructor que inicializa el usuario con su nombre. 
+
+Constructor de la clase \doxylink{classUsuario}{Usuario}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+nombre} & Nombre del usuario.\\
+\hline
+\end{DoxyParams}
+Inicializa el objeto con el nombre del usuario proporcionado.
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+nombre} & Nombre del usuario o cliente. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classUsuario_a69eab5b3314e826c58aaa034479d7ac0}\label{classUsuario_a69eab5b3314e826c58aaa034479d7ac0} 
+\index{Usuario@{Usuario}!getNombre@{getNombre}}
+\index{getNombre@{getNombre}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getNombre()}{getNombre()}}
+{\footnotesize\ttfamily string Usuario\+::get\+Nombre (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el nombre del usuario. 
+
+\begin{DoxyReturn}{Returns}
+Nombre del usuario ({\ttfamily string}). 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{classUsuario_a69eab5b3314e826c58aaa034479d7ac0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classUsuario_ae80eaca178e9fd92688c8f0b9f172b0e}\label{classUsuario_ae80eaca178e9fd92688c8f0b9f172b0e} 
+\index{Usuario@{Usuario}!guardarCompra@{guardarCompra}}
+\index{guardarCompra@{guardarCompra}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{guardarCompra()}{guardarCompra()}}
+{\footnotesize\ttfamily void Usuario\+::guardar\+Compra (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{classitemcarrito}{itemcarrito}} $>$ \&}]{carrito }\end{DoxyParamCaption})}
+
+
+
+Guarda una nueva compra en el historial del usuario. 
+
+Guarda una compra en el historial del usuario.
+
+Cada compra se almacena como un vector de objetos {\ttfamily itemcarrito}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Carrito de compra que contiene los productos adquiridos.\\
+\hline
+\end{DoxyParams}
+Añade un nuevo vector de objetos {\ttfamily itemcarrito} al historial de compras. Cada vector representa una compra completa (carrito finalizado).
+
+
+\begin{DoxyParams}{Parameters}
+{\em carrito} & Vector que contiene los productos comprados. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+Se asume que el vector {\ttfamily carrito} contiene ítems válidos y con totales calculados. 
+\end{DoxyNote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{classUsuario_ae80eaca178e9fd92688c8f0b9f172b0e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classUsuario_a18f893ef5457ae77f0801d3c7c462f49}\label{classUsuario_a18f893ef5457ae77f0801d3c7c462f49} 
+\index{Usuario@{Usuario}!mostrarHistorial@{mostrarHistorial}}
+\index{mostrarHistorial@{mostrarHistorial}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{mostrarHistorial()}{mostrarHistorial()}}
+{\footnotesize\ttfamily void Usuario\+::mostrar\+Historial (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Muestra el historial completo de compras del usuario. 
+
+Muestra el historial de compras del usuario.
+
+Recorre y muestra todas las compras realizadas por el usuario, junto con los productos de cada una.
+
+Recorre todas las compras almacenadas y muestra los productos, cantidades y totales de cada una. También indica el total de cada compra. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{classUsuario_a18f893ef5457ae77f0801d3c7c462f49_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{usuario_8h}{usuario.\+h}}\item 
+src/\mbox{\hyperlink{usuario_8cpp}{usuario.\+cpp}}\end{DoxyCompactItemize}

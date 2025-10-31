@@ -1,0 +1,39 @@
+\doxysection{itemcarrito.\+h}
+\hypertarget{itemcarrito_8h_source}{}\label{itemcarrito_8h_source}\index{include/itemcarrito.h@{include/itemcarrito.h}}
+\mbox{\hyperlink{itemcarrito_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#ifndef\ ITEMCARRITO\_H}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#define\ ITEMCARRITO\_H}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{producto_8h}{producto.h}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00017\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classitemcarrito}{itemcarrito}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classproducto}{producto}}\ \{}
+\DoxyCodeLine{00028\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{string}\ pro;\ \ \ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{int}\ cant;\ \ \ \ \ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{int}\ pretot;\ \ \ }
+\DoxyCodeLine{00033\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{classitemcarrito_a98c4e4ddfb1929eacdeb9fa4362b0da7}{itemcarrito}}();}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00047\ \ \ \ \ \mbox{\hyperlink{classitemcarrito_a98c4e4ddfb1929eacdeb9fa4362b0da7}{itemcarrito}}(\textcolor{keywordtype}{string}\ \_producto,\ \textcolor{keywordtype}{int}\ \_cant,\ \textcolor{keywordtype}{int}\ \_pretot);}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classitemcarrito_a7249b1c8942f7b3da288c9aff929e751}{agregarAlCarrito}}(vector<itemcarrito>\ \&carrito);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classitemcarrito_a59d29ce89b296a4c8d581fb90fded142}{eliminarProducto}}(vector<itemcarrito>\ \&carrito);}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classitemcarrito_a060b8b61c19cdee00c957a5e614e9829}{mostrarCarrito}}(\textcolor{keyword}{const}\ vector<itemcarrito>\ \&carrito);}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00080\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{classitemcarrito_a3cd6ed54e0e11a7b2755eeeb3da87c58}{getProducto}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00086\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classitemcarrito_a8393edb822049ca50a4a113dd9df98bf}{getCantidad}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00092\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classitemcarrito_a6ebd1de482e840751b97abd731e598dd}{getTotal}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00093\ \};}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ITEMCARRITO\_H}}
+
+\end{DoxyCode}

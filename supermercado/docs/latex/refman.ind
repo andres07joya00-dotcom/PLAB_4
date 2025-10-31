@@ -1,0 +1,93 @@
+\begin{theindex}
+
+  \item {agregarAlCarrito}
+    \subitem {itemcarrito}, \hyperpage{10}
+
+  \indexspace
+
+  \item {cantidad}
+    \subitem {producto}, \hyperpage{17}
+
+  \indexspace
+
+  \item {eliminarProducto}
+    \subitem {itemcarrito}, \hyperpage{11}
+
+  \indexspace
+
+  \item {getCantidad}
+    \subitem {itemcarrito}, \hyperpage{12}
+  \item {getNombre}
+    \subitem {Usuario}, \hyperpage{18}
+  \item {getNombres}
+    \subitem {producto}, \hyperpage{16}
+  \item {getPrecios}
+    \subitem {producto}, \hyperpage{16}
+  \item {getProducto}
+    \subitem {itemcarrito}, \hyperpage{12}
+  \item {getTotal}
+    \subitem {itemcarrito}, \hyperpage{12}
+  \item {guardarCompra}
+    \subitem {Usuario}, \hyperpage{19}
+
+  \indexspace
+
+  \item {include/itemcarrito.h}, \hyperpage{21, 22}
+  \item {include/producto.h}, \hyperpage{23, 24}
+  \item {include/usuario.h}, \hyperpage{24}, \hyperpage{26}
+  \item {itemcarrito}, \hyperpage{7}
+    \subitem {agregarAlCarrito}, \hyperpage{10}
+    \subitem {eliminarProducto}, \hyperpage{11}
+    \subitem {getCantidad}, \hyperpage{12}
+    \subitem {getProducto}, \hyperpage{12}
+    \subitem {getTotal}, \hyperpage{12}
+    \subitem {itemcarrito}, \hyperpage{9}
+    \subitem {mostrarCarrito}, \hyperpage{12}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{28}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{28}
+  \item {mostrar}
+    \subitem {producto}, \hyperpage{16}
+  \item {mostrarCarrito}
+    \subitem {itemcarrito}, \hyperpage{12}
+  \item {mostrarHistorial}
+    \subitem {Usuario}, \hyperpage{20}
+
+  \indexspace
+
+  \item {nombres}
+    \subitem {producto}, \hyperpage{17}
+
+  \indexspace
+
+  \item {precios}
+    \subitem {producto}, \hyperpage{17}
+  \item {producto}, \hyperpage{13}
+    \subitem {cantidad}, \hyperpage{17}
+    \subitem {getNombres}, \hyperpage{16}
+    \subitem {getPrecios}, \hyperpage{16}
+    \subitem {mostrar}, \hyperpage{16}
+    \subitem {nombres}, \hyperpage{17}
+    \subitem {precios}, \hyperpage{17}
+    \subitem {producto}, \hyperpage{15}
+
+  \indexspace
+
+  \item {src/itemcarrito.cpp}, \hyperpage{26}
+  \item {src/main.cpp}, \hyperpage{27}
+  \item {src/producto.cpp}, \hyperpage{29}
+  \item {src/usuario.cpp}, \hyperpage{29}
+
+  \indexspace
+
+  \item {Usuario}, \hyperpage{17}
+    \subitem {getNombre}, \hyperpage{18}
+    \subitem {guardarCompra}, \hyperpage{19}
+    \subitem {mostrarHistorial}, \hyperpage{20}
+    \subitem {Usuario}, \hyperpage{18}
+
+\end{theindex}
